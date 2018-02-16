@@ -21,7 +21,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Transformalize.Contracts;
 
-namespace Transformalize.Transforms.lambdaParser {
+namespace Transformalize.Transforms.LambdaParser {
     public class LambdaParserEvalTransform : BaseTransform {
 
         private readonly Func<IRow, object> _transform;

@@ -51,6 +51,7 @@ namespace UnitTests {
                 <add name='added' type='double' t='eval(number1+number2)' />
                 <add name='joined' t='eval(text1+text2)' />
                 <add name='if' t='eval(text1==""Two"" || text2==""Two"" || number1==2 || number2==2.0 ? ""It is Two"" : ""It is not Two"")' />
+                <add name='is2' t='eval(number1==2)' type='bool' />
             </calculated-fields>
         </add>
     </entities>
@@ -76,6 +77,11 @@ namespace UnitTests {
                     Assert.AreEqual("It is not Two", rows[0]["if"]);
                     Assert.AreEqual("It is Two", rows[1]["if"]);
                     Assert.AreEqual("It is not Two", rows[2]["if"]);
+
+                    Assert.AreEqual(false,rows[0]["is2"]);
+                    Assert.AreEqual(true, rows[1]["is2"]);
+                    Assert.AreEqual(false, rows[2]["is2"]);
+                    
                 }
             }
 

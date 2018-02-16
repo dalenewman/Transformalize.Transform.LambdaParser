@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Transformalize.Transform.lambdaParser")]
+[assembly: AssemblyTitle("Transformalize.Transform.LambdaParser")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Transformalize")]
-[assembly: AssemblyProduct("Transformalize.Transform.lambdaParser")]
+[assembly: AssemblyProduct("Transformalize.Transform.LambdaParser")]
 [assembly: AssemblyCopyright("Copyright ©  2018 Dale Newman")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

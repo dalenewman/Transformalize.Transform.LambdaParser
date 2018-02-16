@@ -6,7 +6,7 @@ using Autofac;
 using Cfg.Net.Shorthand;
 using Transformalize.Configuration;
 using Transformalize.Contracts;
-using Transformalize.Transforms.lambdaParser;
+
 using Parameter = Cfg.Net.Shorthand.Parameter;
 
 namespace Transformalize.Transforms.LambdaParser.Autofac {

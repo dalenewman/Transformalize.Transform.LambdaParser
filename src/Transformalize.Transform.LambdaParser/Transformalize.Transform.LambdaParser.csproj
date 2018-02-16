@@ -7,8 +7,8 @@
     <ProjectGuid>{4ED1E259-756A-40B8-9800-F563B59E0206}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Transformalize.Transforms.lambdaParser</RootNamespace>
-    <AssemblyName>Transformalize.Transform.lambdaParser</AssemblyName>
+    <RootNamespace>Transformalize.Transforms.LambdaParser</RootNamespace>
+    <AssemblyName>Transformalize.Transform.LambdaParser</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
