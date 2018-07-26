@@ -50,8 +50,8 @@
     <Reference Include="Cfg.Net.Shorthand, Version=0.2.11.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Cfg-NET.Shorthand.0.2.11\lib\portable-net45+win8+wpa81+wp8\Cfg.Net.Shorthand.dll</HintPath>
     </Reference>
-    <Reference Include="CfgNet, Version=0.10.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Cfg-NET.0.10.2\lib\net452\CfgNet.dll</HintPath>
+    <Reference Include="CfgNet, Version=0.10.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Cfg-NET.0.10.3\lib\net452\CfgNet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -65,8 +65,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Transformalize, Version=0.3.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Transformalize.0.3.3-beta\lib\net452\Transformalize.dll</HintPath>
+    <Reference Include="Transformalize, Version=0.3.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Transformalize\Compatibility\Transformalize.452\bin\Debug\Transformalize.dll</HintPath>
     </Reference>
     <Reference Include="Transformalize.Provider.Bogus, Version=0.3.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Transformalize.Provider.Bogus.0.3.3-beta\lib\net452\Transformalize.Provider.Bogus.dll</HintPath>

@@ -18,11 +18,12 @@
 
 using System.Linq;
 using Autofac;
-using BootStrapper;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Transformalize.Configuration;
+using Transformalize.Containers.Autofac;
 using Transformalize.Contracts;
 using Transformalize.Providers.Console;
+using Transformalize.Transforms.LambdaParser.Autofac;
 
 namespace UnitTests {
 
@@ -57,8 +58,8 @@ namespace UnitTests {
     </entities>
 
 </add>";
-            using (var outer = new ConfigurationContainer().CreateScope(xml)) {
-                using (var inner = new TestContainer().CreateScope(outer, new ConsoleLogger(LogLevel.Debug))) {
+            using (var outer = new ConfigurationContainer(new LambdaParserModule()).CreateScope(xml)) {
+                using (var inner = new TestContainer( new LambdaParserModule()).CreateScope(outer, new ConsoleLogger(LogLevel.Debug))) {
 
                     var process = inner.Resolve<Process>();
                   
