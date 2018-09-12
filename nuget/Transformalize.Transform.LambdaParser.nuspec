@@ -16,7 +16,7 @@
     <dependencies>
       <group targetFramework="net452">
         <dependency id="Transformalize" version="0.3.7-beta" />
-        <dependency id="NReco.LambdaParser" version="1.0.7" />
+        <dependency id="NReco.LambdaParser" version="1.0.8" />
       </group>
     </dependencies>
   </metadata>
