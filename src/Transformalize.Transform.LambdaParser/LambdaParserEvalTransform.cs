@@ -27,10 +27,13 @@ namespace Transformalize.Transforms.LambdaParser {
         private readonly Func<IRow, object> _transform;
         private readonly Dictionary<string, object> _typeDefaults = Constants.TypeDefaults();
 
-        public LambdaParserEvalTransform(IContext context = null) : base(context, "object") {
+        public LambdaParserEvalTransform(IContext context = null) : base(context, null) {
+
             if (IsMissingContext()) {
                 return;
             }
+
+            Returns = Context.Field.Type;
 
             if (IsMissing(Context.Operation.Expression)) {
                 return;

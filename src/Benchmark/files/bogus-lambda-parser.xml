@@ -15,8 +15,6 @@
       </fields>
 
       <calculated-fields>
-        <add name='Score' type='int' t='eval(Stars * Reviewers)' />
-        <add name='FullName' t='eval(FirstName + " " + LastName)' />
         <add name='Condition' t='eval(Stars==5 ? "5 Star" : "")' />
       </calculated-fields>
     </add>

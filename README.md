@@ -31,20 +31,17 @@ This produces `SomethingWonderful 2`
 
 ``` ini
 
-BenchmarkDotNet=v0.10.12, OS=Windows 10 Redstone 3 [1709, Fall Creators Update] (10.0.16299.251)
-Intel Core i7-7700HQ CPU 2.80GHz (Kaby Lake), 1 CPU, 8 logical cores and 4 physical cores
-Frequency=2742190 Hz, Resolution=364.6720 ns, Timer=TSC
-  [Host]       : .NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.2633.0
-  LegacyJitX64 : .NET Framework 4.6.2 (CLR 4.0.30319.42000), 64bit LegacyJIT/clrjit-v4.7.2633.0;compatjit-v4.7.2633.0
-  LegacyJitX86 : .NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.2633.0
+BenchmarkDotNet=v0.11.1, OS=Windows 10.0.16299.251 (1709/FallCreatorsUpdate/Redstone3)
+Intel Core i7-7700HQ CPU 2.80GHz (Kaby Lake), 1 CPU, 8 logical and 4 physical cores
+Frequency=2742188 Hz, Resolution=364.6723 ns, Timer=TSC
+  [Host]       : .NET Framework 4.7.1 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.2633.0
+  LegacyJitX64 : .NET Framework 4.7.1 (CLR 4.0.30319.42000), 64bit LegacyJIT/clrjit-v4.7.2633.0;compatjit-v4.7.2633.0
 
-Jit=LegacyJit  Runtime=Clr  
+Job=LegacyJitX64  Jit=LegacyJit  Platform=X64  
+Runtime=Clr  
 
 ```
-|                  Method |          Job | Platform |     Mean |    Error |    StdDev | Scaled | ScaledSD |
-|------------------------ |------------- |--------- |---------:|---------:|----------:|-------:|---------:|
-|         &#39;500 test rows&#39; | LegacyJitX64 |      X64 | 53.36 ms | 1.054 ms | 1.3332 ms |   1.00 |     0.00 |
-| &#39;500 rows with 3 evals&#39; | LegacyJitX64 |      X64 | 71.09 ms | 1.155 ms | 1.0240 ms |   1.33 |     0.04 |
-|                         |              |          |          |          |           |        |          |
-|         &#39;500 test rows&#39; | LegacyJitX86 |      X86 | 58.51 ms | 1.078 ms | 1.0088 ms |   1.00 |     0.00 |
-| &#39;500 rows with 3 evals&#39; | LegacyJitX86 |      X86 | 70.01 ms | 1.065 ms | 0.9964 ms |   1.20 |     0.03 |
+|             Method |     Mean |    Error |    StdDev | Scaled | ScaledSD |
+|------------------- |---------:|---------:|----------:|-------:|---------:|
+|        &#39;5000 rows&#39; | 451.7 ms | 8.996 ms |  8.415 ms |   1.00 |     0.00 |
+| &#39;5000 rows 1 eval&#39; | 494.6 ms | 9.442 ms | 10.103 ms |   1.10 |     0.03 |
