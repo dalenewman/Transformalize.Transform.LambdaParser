@@ -1,6 +1,6 @@
 ### Overview
 
-This adds an eval transform to Transformalize using [NReco.LambdaParser](https://github.com/nreco/lambdaparser).  It is a plug-in compatible with Transformalize 0.3.3-beta.
+This adds an eval transform to Transformalize using [NReco.LambdaParser](https://github.com/nreco/lambdaparser).  It is a plug-in compatible with Transformalize 0.3.7-beta.
 
 Build the Autofac project and put it's output into Transformalize's *plugins* folder.
 
@@ -41,7 +41,7 @@ Job=LegacyJitX64  Jit=LegacyJit  Platform=X64
 Runtime=Clr  
 
 ```
-|             Method |     Mean |    Error |    StdDev | Scaled | ScaledSD |
-|------------------- |---------:|---------:|----------:|-------:|---------:|
-|        &#39;5000 rows&#39; | 451.7 ms | 8.996 ms |  8.415 ms |   1.00 |     0.00 |
-| &#39;5000 rows 1 eval&#39; | 494.6 ms | 9.442 ms | 10.103 ms |   1.10 |     0.03 |
+|             Method |     Mean |     Error |   StdDev | Scaled | ScaledSD |
+|------------------- |---------:|----------:|---------:|-------:|---------:|
+|        &#39;5000 rows&#39; | 470.4 ms |  9.527 ms | 8.911 ms |   1.00 |     0.00 |
+| &#39;5000 rows 1 eval&#39; | 528.1 ms | 10.236 ms | 9.074 ms |   1.12 |     0.03 |

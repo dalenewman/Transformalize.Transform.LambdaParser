@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Transformalize.Transform.LambdaParser</id>
-    <version>0.3.6-beta</version>
+    <version>0.3.7-beta</version>
     <title>Transformalize Transform using NReco.LambdaParser</title>
     <authors>Dale Newman</authors>
     <owners>Dale Newman</owners>
@@ -15,7 +15,7 @@
     <tags>etl</tags>
     <dependencies>
       <group targetFramework="net452">
-        <dependency id="Transformalize" version="0.3.6-beta" />
+        <dependency id="Transformalize" version="0.3.7-beta" />
         <dependency id="NReco.LambdaParser" version="1.0.7" />
       </group>
     </dependencies>
