@@ -33,7 +33,7 @@ This produces `SomethingWonderful 2`
 
 BenchmarkDotNet=v0.11.1, OS=Windows 10.0.16299.251 (1709/FallCreatorsUpdate/Redstone3)
 Intel Core i7-7700HQ CPU 2.80GHz (Kaby Lake), 1 CPU, 8 logical and 4 physical cores
-Frequency=2742188 Hz, Resolution=364.6723 ns, Timer=TSC
+Frequency=2742189 Hz, Resolution=364.6722 ns, Timer=TSC
   [Host]       : .NET Framework 4.7.1 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.2633.0
   LegacyJitX64 : .NET Framework 4.7.1 (CLR 4.0.30319.42000), 64bit LegacyJIT/clrjit-v4.7.2633.0;compatjit-v4.7.2633.0
 
@@ -43,5 +43,5 @@ Runtime=Clr
 ```
 |             Method |     Mean |     Error |    StdDev | Scaled | ScaledSD |
 |------------------- |---------:|----------:|----------:|-------:|---------:|
-|        &#39;5000 rows&#39; | 474.7 ms |  7.533 ms |  6.291 ms |   1.00 |     0.00 |
-| &#39;5000 rows 1 eval&#39; | 532.3 ms | 10.357 ms | 12.719 ms |   1.12 |     0.03 |
+|        &#39;5000 rows&#39; | 480.5 ms |  5.945 ms |  5.561 ms |   1.00 |     0.00 |
+| &#39;5000 rows 1 eval&#39; | 546.5 ms | 12.332 ms | 17.686 ms |   1.14 |     0.04 |
