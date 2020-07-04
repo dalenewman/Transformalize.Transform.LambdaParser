@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Transformalize.Transforms.LambdaParser</RootNamespace>
+    <AssemblyName>Transformalize.Transform.LambdaParser</AssemblyName>
+    <Version>0.8.15-beta</Version>
+  </PropertyGroup>
+
+  <Import Project="..\Transformalize.Transform.LambdaParser.Shared\Transformalize.Transform.LambdaParser.Shared.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="NReco.LambdaParser" Version="1.0.11" />
+    <PackageReference Include="Transformalize" Version="0.8.14-beta" />
+  </ItemGroup>
+
+</Project>
