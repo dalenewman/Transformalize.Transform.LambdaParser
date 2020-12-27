@@ -1,20 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Transformalize.Transforms.LambdaParser.Autofac</RootNamespace>
     <AssemblyName>Transformalize.Transform.LambdaParser.Autofac</AssemblyName>
-    <Version>0.8.15-beta</Version>
+    <Version>0.8.30-beta</Version>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Transformalize.Container.Autofac" Version="0.8.15-beta" />
+    <PackageReference Include="Transformalize.Container.Autofac" Version="0.8.30-beta" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Transformalize.Transform.LambdaParser.Standard.2.0\Transformalize.Transform.LambdaParser.Standard.2.0.csproj" />
   </ItemGroup>
-
   <Import Project="..\Transformalize.Transform.LambdaParser.Autofac.Shared\Transformalize.Transform.LambdaParser.Autofac.Shared.projitems" Label="Shared" />
-
 </Project>

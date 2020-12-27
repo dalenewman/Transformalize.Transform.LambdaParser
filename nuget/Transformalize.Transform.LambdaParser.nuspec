@@ -2,7 +2,7 @@
 <package>
    <metadata>
       <id>Transformalize.Transform.LambdaParser</id>
-      <version>0.8.15-beta</version>
+      <version>0.8.30-beta</version>
       <title>Transformalize Transform using NReco.LambdaParser</title>
       <authors>Dale Newman</authors>
       <owners>Dale Newman</owners>
@@ -10,17 +10,17 @@
       <projectUrl>https://github.com/dalenewman/Transformalize.Transform.LambdaParser</projectUrl>
       <requireLicenseAcceptance>false</requireLicenseAcceptance>
       <description>Transformalize Transform using NReco.LambdaParser</description>
-      <releaseNotes>added .net standard 2.0 target</releaseNotes>
+      <releaseNotes></releaseNotes>
       <copyright>Copyright 2018-2020</copyright>
       <tags>etl</tags>
       <dependencies>
          <group targetFramework="net462">
-            <dependency id="Transformalize" version="0.8.14-beta" />
-            <dependency id="NReco.LambdaParser" version="1.0.11" />
+            <dependency id="Transformalize" version="0.8.30-beta" />
+            <dependency id="NReco.LambdaParser" version="1.0.12" />
          </group>
          <group targetFramework="netstandard2.0">
-            <dependency id="Transformalize" version="0.8.14-beta" />
-            <dependency id="NReco.LambdaParser" version="1.0.11" />
+            <dependency id="Transformalize" version="0.8.30-beta" />
+            <dependency id="NReco.LambdaParser" version="1.0.12" />
          </group>
       </dependencies>
    </metadata>
