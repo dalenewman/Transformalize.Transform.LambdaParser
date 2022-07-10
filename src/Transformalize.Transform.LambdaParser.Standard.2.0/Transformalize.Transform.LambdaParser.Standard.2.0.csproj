@@ -3,11 +3,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Transformalize.Transforms.LambdaParser</RootNamespace>
     <AssemblyName>Transformalize.Transform.LambdaParser</AssemblyName>
-    <Version>0.8.30-beta</Version>
+    <Version>0.10.1-beta</Version>
+    <FileVersion>0.10.1</FileVersion>
+    <AssemblyVersion>0.10.1</AssemblyVersion>
   </PropertyGroup>
   <Import Project="..\Transformalize.Transform.LambdaParser.Shared\Transformalize.Transform.LambdaParser.Shared.projitems" Label="Shared" />
   <ItemGroup>
     <PackageReference Include="NReco.LambdaParser" Version="1.0.12" />
-    <PackageReference Include="Transformalize" Version="0.8.30-beta" />
+    <PackageReference Include="Transformalize" Version="0.10.1-beta" />
   </ItemGroup>
 </Project>
