@@ -10,12 +10,10 @@ using Transformalize.Configuration;
 
 namespace Benchmark {
 
-
-   [LegacyJitX64Job]
    public class Benchmarks {
 
       [Benchmark(Baseline = true, Description = "5000 rows")]
-      public void TestRows() {
+      public void BaselineRows() {
          var logger = new NullLogger();
          using (var outer = new ConfigurationContainer(new BogusModule(), new LambdaParserModule()).CreateScope(@"files\bogus.xml?Size=5000", logger)) {
             var process = outer.Resolve<Process>();
@@ -27,7 +25,7 @@ namespace Benchmark {
       }
 
       [Benchmark(Baseline = false, Description = "5000 rows 1 eval")]
-      public void CSharpRows() {
+      public void LambdaParserRows() {
          var logger = new NullLogger();
          using (var outer = new ConfigurationContainer(new BogusModule(), new LambdaParserModule()).CreateScope(@"files\bogus-lambda-parser.xml?Size=5000", logger)) {
             var process = outer.Resolve<Process>();

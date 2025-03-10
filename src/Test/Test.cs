@@ -25,10 +25,10 @@ using Transformalize.Contracts;
 using Transformalize.Providers.Console;
 using Transformalize.Transforms.LambdaParser.Autofac;
 
-namespace UnitTests {
+namespace Test {
 
    [TestClass]
-   public class Test {
+   public sealed class Test {
 
       [TestMethod]
       public void BasicTests() {

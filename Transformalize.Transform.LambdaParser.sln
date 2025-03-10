@@ -1,92 +1,57 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30225.117
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C4563C88-9C80-4BD0-949E-AA64F111957E}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "src\Benchmark\Benchmark.csproj", "{EAC09C5E-C222-4745-97FA-798063261565}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{8FE1844F-26A4-47BE-9507-F0333D42FABE}"
 	ProjectSection(SolutionItems) = preProject
 		nuget\myget.bat = nuget\myget.bat
 		nuget\nuget.bat = nuget\nuget.bat
-		nuget\nuget.push.bat = nuget\nuget.push.bat
 		nuget\Transformalize.Transform.LambdaParser.Autofac.nuspec = nuget\Transformalize.Transform.LambdaParser.Autofac.nuspec
 		nuget\Transformalize.Transform.LambdaParser.nuspec = nuget\Transformalize.Transform.LambdaParser.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Transform.LambdaParser", "src\Transformalize.Transform.LambdaParser\Transformalize.Transform.LambdaParser.csproj", "{4ED1E259-756A-40B8-9800-F563B59E0206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "src\Test\Test.csproj", "{C0E06543-10FF-4F6B-8F56-35496E598CBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Transform.LambdaParser.Autofac", "src\Transformalize.Transform.LambdaParser.Autofac\Transformalize.Transform.LambdaParser.Autofac.csproj", "{CD3477B9-14E5-4EA3-90B0-CA9299BCAE73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Transform.LambdaParser", "src\Transformalize.Transform.LambdaParser\Transformalize.Transform.LambdaParser.csproj", "{3D0ED8F7-957B-4300-A2B3-46C459047E2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "src\UnitTests\UnitTests.csproj", "{4487DBA2-77D3-4AD5-A942-25DB96FD16E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Transform.LambdaParser.Autofac", "src\Transformalize.Transform.LambdaParser.Autofac\Transformalize.Transform.LambdaParser.Autofac.csproj", "{BEAF6DA3-4E00-44F3-8453-E542FF5A8687}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transform", "Transform", "{20D2AEA7-A7AC-4270-97EF-246F5E4322C4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transform.Autofac", "Transform.Autofac", "{956D514C-7638-4E61-811D-3D8C725357CC}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Transformalize.Transform.LambdaParser.Shared", "src\Transformalize.Transform.LambdaParser.Shared\Transformalize.Transform.LambdaParser.Shared.shproj", "{7C98E953-8D06-46A6-9E83-C6ACA1055AD5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Transform.LambdaParser.Standard.2.0", "src\Transformalize.Transform.LambdaParser.Standard.2.0\Transformalize.Transform.LambdaParser.Standard.2.0.csproj", "{4F232369-0D46-4D56-B156-30EB43FE4C8E}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Transformalize.Transform.LambdaParser.Autofac.Shared", "src\Transformalize.Transform.LambdaParser.Autofac.Shared\Transformalize.Transform.LambdaParser.Autofac.Shared.shproj", "{A082AAD7-99D3-4E09-BC2E-8DEEB3A4B98E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformalize.Transform.LambdaParser.Autofac.Standard.2.0", "src\Transformalize.Transform.LambdaParser.Autofac.Standard.2.0\Transformalize.Transform.LambdaParser.Autofac.Standard.2.0.csproj", "{68CDFD19-E471-4B34-B0EC-2652D07DAB10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "src\Benchmark\Benchmark.csproj", "{56CFED2F-478D-4DD4-AC2B-25382FA9665D}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		src\Transformalize.Transform.LambdaParser.Shared\Transformalize.Transform.LambdaParser.Shared.projitems*{4ed1e259-756a-40b8-9800-f563b59e0206}*SharedItemsImports = 4
-		src\Transformalize.Transform.LambdaParser.Shared\Transformalize.Transform.LambdaParser.Shared.projitems*{4f232369-0d46-4d56-b156-30eb43fe4c8e}*SharedItemsImports = 5
-		src\Transformalize.Transform.LambdaParser.Autofac.Shared\Transformalize.Transform.LambdaParser.Autofac.Shared.projitems*{68cdfd19-e471-4b34-b0ec-2652d07dab10}*SharedItemsImports = 5
-		src\Transformalize.Transform.LambdaParser.Shared\Transformalize.Transform.LambdaParser.Shared.projitems*{7c98e953-8d06-46a6-9e83-c6aca1055ad5}*SharedItemsImports = 13
-		src\Transformalize.Transform.LambdaParser.Autofac.Shared\Transformalize.Transform.LambdaParser.Autofac.Shared.projitems*{a082aad7-99d3-4e09-bc2e-8deeb3a4b98e}*SharedItemsImports = 13
-		src\Transformalize.Transform.LambdaParser.Autofac.Shared\Transformalize.Transform.LambdaParser.Autofac.Shared.projitems*{cd3477b9-14e5-4ea3-90b0-ca9299bcae73}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EAC09C5E-C222-4745-97FA-798063261565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAC09C5E-C222-4745-97FA-798063261565}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAC09C5E-C222-4745-97FA-798063261565}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAC09C5E-C222-4745-97FA-798063261565}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4ED1E259-756A-40B8-9800-F563B59E0206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4ED1E259-756A-40B8-9800-F563B59E0206}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4ED1E259-756A-40B8-9800-F563B59E0206}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4ED1E259-756A-40B8-9800-F563B59E0206}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD3477B9-14E5-4EA3-90B0-CA9299BCAE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD3477B9-14E5-4EA3-90B0-CA9299BCAE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD3477B9-14E5-4EA3-90B0-CA9299BCAE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD3477B9-14E5-4EA3-90B0-CA9299BCAE73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4487DBA2-77D3-4AD5-A942-25DB96FD16E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4487DBA2-77D3-4AD5-A942-25DB96FD16E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4487DBA2-77D3-4AD5-A942-25DB96FD16E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4487DBA2-77D3-4AD5-A942-25DB96FD16E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F232369-0D46-4D56-B156-30EB43FE4C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F232369-0D46-4D56-B156-30EB43FE4C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F232369-0D46-4D56-B156-30EB43FE4C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F232369-0D46-4D56-B156-30EB43FE4C8E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{68CDFD19-E471-4B34-B0EC-2652D07DAB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68CDFD19-E471-4B34-B0EC-2652D07DAB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68CDFD19-E471-4B34-B0EC-2652D07DAB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68CDFD19-E471-4B34-B0EC-2652D07DAB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E06543-10FF-4F6B-8F56-35496E598CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E06543-10FF-4F6B-8F56-35496E598CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E06543-10FF-4F6B-8F56-35496E598CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E06543-10FF-4F6B-8F56-35496E598CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0ED8F7-957B-4300-A2B3-46C459047E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0ED8F7-957B-4300-A2B3-46C459047E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0ED8F7-957B-4300-A2B3-46C459047E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0ED8F7-957B-4300-A2B3-46C459047E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEAF6DA3-4E00-44F3-8453-E542FF5A8687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAF6DA3-4E00-44F3-8453-E542FF5A8687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEAF6DA3-4E00-44F3-8453-E542FF5A8687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEAF6DA3-4E00-44F3-8453-E542FF5A8687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CFED2F-478D-4DD4-AC2B-25382FA9665D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CFED2F-478D-4DD4-AC2B-25382FA9665D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CFED2F-478D-4DD4-AC2B-25382FA9665D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CFED2F-478D-4DD4-AC2B-25382FA9665D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8FE1844F-26A4-47BE-9507-F0333D42FABE} = {C4563C88-9C80-4BD0-949E-AA64F111957E}
-		{4ED1E259-756A-40B8-9800-F563B59E0206} = {20D2AEA7-A7AC-4270-97EF-246F5E4322C4}
-		{CD3477B9-14E5-4EA3-90B0-CA9299BCAE73} = {956D514C-7638-4E61-811D-3D8C725357CC}
-		{7C98E953-8D06-46A6-9E83-C6ACA1055AD5} = {20D2AEA7-A7AC-4270-97EF-246F5E4322C4}
-		{4F232369-0D46-4D56-B156-30EB43FE4C8E} = {20D2AEA7-A7AC-4270-97EF-246F5E4322C4}
-		{A082AAD7-99D3-4E09-BC2E-8DEEB3A4B98E} = {956D514C-7638-4E61-811D-3D8C725357CC}
-		{68CDFD19-E471-4B34-B0EC-2652D07DAB10} = {956D514C-7638-4E61-811D-3D8C725357CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {960FC2FA-8CAD-47A3-8A4E-4173AE406E71}
